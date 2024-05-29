@@ -5,7 +5,7 @@ Collection of dark and light vim colorschemes.
 ![nodding-man-meme](https://github.com/habamax/vim-nod/assets/234774/1da78ff9-d605-4a8a-9b4f-40ccbee7b3f8)
 
 
-## nod, nod-b, nod-d
+## nod, nod-d, nod-b
 
 ![Screenshot_20240529_160057](https://github.com/habamax/vim-nod/assets/234774/f2cfaafb-e96a-47c9-8352-2ff335235ff6)
 

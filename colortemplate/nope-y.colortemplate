@@ -3,7 +3,7 @@ Full name: nope-y
 Short name: nope-y
 Description: nope with yellowish tint.
 Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/habamax/.vim/tree/master/pack/local/start/vim-nod
+Website: https://github.com/habamax/vim-nod
 License: Same as Vim
 
 Include: _link_default

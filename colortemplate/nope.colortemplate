@@ -1,9 +1,9 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
 Full name: nope
 Short name: nope
-Description: White background.
+Description: White background. It is usually a no no. But sometimes it is the only way.
 Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/habamax/.vim/tree/master/pack/local/start/vim-nod
+Website: https://github.com/habamax/vim-nod
 License: Same as Vim
 
 Include: _link_default

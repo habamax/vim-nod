@@ -3,7 +3,7 @@ Full name: nod-d
 Short name: nod-d
 Description: Nod with lighter dark background.
 Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/habamax/.vim/tree/master/pack/local/start/vim-nod
+Website: https://github.com/habamax/vim-nod
 License: Same as Vim
 
 Include: _link_default

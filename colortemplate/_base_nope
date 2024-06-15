@@ -41,6 +41,8 @@ PmenuKind                      color09        colorPmenu
 PmenuKindSel                   color01        color11
 PmenuExtra                     color08        colorPmenu
 PmenuExtraSel                  color15        color11
+PmenuMatch                     color05        colorPmenu
+PmenuMatchSel                  colorFg        color11
 Variant: 16
 Pmenu                          color15        color08
 PmenuThumb                     none           color02

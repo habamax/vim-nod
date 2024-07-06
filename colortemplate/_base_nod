@@ -41,7 +41,7 @@ PmenuKind                      color09        colorPmenu
 PmenuKindSel                   color09        colorNonT
 PmenuExtra                     color08        colorPmenu
 PmenuExtraSel                  color08        colorNonT
-PmenuMatch                     color05        colorPmenu
+PmenuMatch                     color13        colorPmenu
 PmenuMatchSel                  color13        colorNonT
 Variant: 16
 Pmenu                          color00        color07

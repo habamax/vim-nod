@@ -43,6 +43,7 @@ Color: color16                 #5f00d7        56             blue
 
 Color: colorLine               #eeeeee        255            grey
 Color: colorPmenu              #dfdfdf        253            grey
+Color: colorPmenuSel           #bcbcbc        250            grey
 Color: colorB                  #f7f7f7        254            grey
 Color: colorNonT               #bcbcbc        250            grey
 Color: colorFold               #878787        102            grey

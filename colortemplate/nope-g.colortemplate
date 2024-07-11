@@ -41,10 +41,11 @@ Color: color15                 #ffffff        231            white
 
 Color: color16                 #5f00d7        56             blue
 
-Color: colorLine               #d2d9d2        255            grey
-Color: colorPmenu              #cdd0c9        254            grey
-Color: colorB                  #e5ede5        254            grey
-Color: colorNonT               #acb2ac        249            grey
+Color: colorLine               #d2d9d2        231            grey
+Color: colorPmenu              #cdd0c9        255            grey
+Color: colorPmenuSel           #acb2ac        252            grey
+Color: colorB                  #e5ede5        255            grey
+Color: colorNonT               #acb2ac        248            grey
 Color: colorFold               #878782        102            grey
 Color: colorlC                 #ff5fff        207            magenta
 Color: colorMP                 #ff00af        199            magenta

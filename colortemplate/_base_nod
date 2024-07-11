@@ -33,8 +33,8 @@ Variant: 256 16
 EndOfBuffer                    color08        none
 
 Variant: gui 256
-Pmenu                          color07        colorPmenu
-PmenuSel                       color07        colorNonT
+Pmenu                          none           colorPmenu
+PmenuSel                       none           colorNonT
 PmenuThumb                     none           color07
 PmenuSbar                      none           none
 PmenuKind                      color09        colorPmenu

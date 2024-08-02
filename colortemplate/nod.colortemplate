@@ -52,9 +52,9 @@ Color: colorSt                 #9e9e9e        247            grey
 Color: colorV                  #5fd7ff        81             cyan
 
 ; Diff colors
-Color: diffAdd                 #5f875f        65             darkgreen
-Color: diffDelete              #875f5f        95             darkred
-Color: diffChange              #5f87af        67             darkblue
+Color: diffAdd                 #002f00        65             darkgreen
+Color: diffDelete              #3f1f00        95             darkred
+Color: diffChange              #1f2f3f        67             darkblue
 Color: diffText                #d787d7        176            darkmagenta
 
 Include: _base_nod

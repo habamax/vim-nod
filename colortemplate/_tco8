@@ -40,7 +40,7 @@ MoreMsg          color02     none
 Question         color05     none
 WarningMsg       color03     none
 
-Todo             color02     color00     reverse
+Todo             colorFg     none        bold
 Search           color00     color04
 IncSearch        color00     color03
 WildMenu         color00     color03

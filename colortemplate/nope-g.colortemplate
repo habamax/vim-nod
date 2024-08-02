@@ -54,10 +54,10 @@ Color: colorStIn               #949494        246            darkgrey
 Color: colorV                  #0087af        31             darkcyan
 
 ; Diff colors
-Color: diffAdd                 #5f875f        65             darkgreen
-Color: diffDelete              #875f5f        95             darkred
-Color: diffChange              #5f87af        67             blue
-Color: diffText                #af5faf        133            darkmagenta
+Color: diffAdd                 #b7d7b7        65             green
+Color: diffDelete              #e7b7b7        131            red
+Color: diffChange              #b7c7d7        67             blue
+Color: diffText                #d7bfd7        96             magenta
 
 Include: _base_nope
 Include: _tco8

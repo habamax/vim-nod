@@ -55,7 +55,7 @@ Color: colorV                  #5fd7ff        81             cyan
 Color: diffAdd                 #002f00        65             darkgreen
 Color: diffDelete              #3f1f00        95             darkred
 Color: diffChange              #1f2f3f        67             darkblue
-Color: diffText                #d787d7        176            darkmagenta
+Color: diffText                #af87af        176            darkmagenta
 
 Include: _base_nod
 Include: _tco8

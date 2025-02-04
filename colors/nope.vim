@@ -53,16 +53,12 @@ hi! link asciidoctorOption Special
 hi! link asciidoctorMacro Special
 hi! link lspDiagVirtualTextError Removed
 hi! link lspDiagSignErrorText Removed
-hi! link lspDiagInlineError ColorColumn
 hi! link lspDiagVirtualTextWarning Changed
 hi! link lspDiagSignWarningText Changed
-hi! link lspDiagInlineWarning ColorColumn
 hi! link lspDiagVirtualTextHint Added
 hi! link lspDiagSignHintText Added
-hi! link lspDiagInlineHint ColorColumn
 hi! link lspDiagVirtualTextInfo Question
 hi! link lspDiagSignInfoText Question
-hi! link lspDiagInlineInfo ColorColumn
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#d7005f', '#008700', '#a54a2a', '#005faf', '#af00af', '#008787', '#dadada', '#8a8a8a', '#ff0087', '#00af00', '#d7875f', '#0087d7', '#d700d7', '#00afaf', '#ffffff']
@@ -116,9 +112,9 @@ hi Folded guifg=#878787 guibg=#f7f7f7 gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#f7f7f7 gui=NONE cterm=NONE
 hi MatchParen guifg=#ff00af guibg=NONE gui=bold cterm=bold
 hi SpellBad guifg=NONE guibg=NONE guisp=#ff0087 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=NONE
-hi SpellCap guifg=NONE guibg=NONE guisp=#d700d7 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=NONE
+hi SpellCap guifg=NONE guibg=NONE guisp=#d7875f gui=undercurl ctermfg=NONE ctermbg=NONE cterm=NONE
 hi SpellLocal guifg=NONE guibg=NONE guisp=#00af00 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=NONE
-hi SpellRare guifg=NONE guibg=NONE guisp=#00afaf gui=undercurl ctermfg=NONE ctermbg=NONE cterm=NONE
+hi SpellRare guifg=NONE guibg=NONE guisp=#d700d7 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Comment guifg=#8a8a8a guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#d7005f guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#008700 guibg=NONE gui=NONE cterm=NONE
@@ -189,9 +185,9 @@ if s:t_Co >= 256
   hi ColorColumn ctermfg=NONE ctermbg=254 cterm=NONE
   hi MatchParen ctermfg=199 ctermbg=NONE cterm=bold
   hi SpellBad ctermfg=198 ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=164 ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=173 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=34 ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=37 ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=164 ctermbg=NONE cterm=underline
   hi Comment ctermfg=245 ctermbg=NONE cterm=NONE
   hi Constant ctermfg=161 ctermbg=NONE cterm=NONE
   hi String ctermfg=28 ctermbg=NONE cterm=NONE
@@ -269,9 +265,9 @@ if s:t_Co >= 16
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi MatchParen ctermfg=NONE ctermbg=NONE cterm=bold,underline
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=magenta ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=yellow ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=green ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=cyan ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=magenta ctermbg=NONE cterm=underline
   hi Comment ctermfg=darkgrey ctermbg=NONE cterm=NONE
   hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
   hi String ctermfg=darkgreen ctermbg=NONE cterm=NONE
@@ -349,9 +345,9 @@ if s:t_Co >= 8
   hi Folded ctermfg=grey ctermbg=NONE cterm=bold
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi SpellBad ctermfg=darkred ctermbg=NONE cterm=reverse
-  hi SpellCap ctermfg=darkmagenta ctermbg=NONE cterm=reverse
+  hi SpellCap ctermfg=darkyellow ctermbg=NONE cterm=reverse
   hi SpellLocal ctermfg=darkgreen ctermbg=NONE cterm=reverse
-  hi SpellRare ctermfg=darkcyan ctermbg=NONE cterm=reverse
+  hi SpellRare ctermfg=darkmagenta ctermbg=NONE cterm=reverse
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
   hi String ctermfg=darkgreen ctermbg=NONE cterm=NONE

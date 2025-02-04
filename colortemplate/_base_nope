@@ -9,13 +9,13 @@ Variant: gui 256 16
 
 Normal                         colorFg        colorBg
 
-Statusline                     colorBg        colorSt        bold
+Statusline                     color15        colorSt        bold
 StatuslineNC                   colorBg        colorStIn
-VertSplit                      colorSt        none
+VertSplit                      colorStIn      colorStIn
 
 TabLine                        colorBg        colorStIn
-TabLineFill                    none           none
-TabLineSel                     colorBg        colorSt        bold
+TabLineFill                    colorBg        colorStIn
+TabLineSel                     colorSt        color15        reverse,bold
 
 ToolbarLine                    none           none
 ToolbarButton                  colorBg        colorSt

@@ -11,10 +11,10 @@ Normal                         colorFg        colorBg
 
 Statusline                     color00        colorSt        bold
 StatuslineNC                   color00        color08
-VertSplit                      color08        none
+VertSplit                      color08        color08
 
 TabLine                        color00        color08
-TabLineFill                    none           none
+TabLineFill                    color00        color08
 TabLineSel                     color00        colorSt        bold
 
 ToolbarLine                    none           none

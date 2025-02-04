@@ -50,7 +50,7 @@ Color: colorFold               #878782        102            grey
 Color: colorlC                 #ff5fff        207            magenta
 Color: colorMP                 #ff00af        199            magenta
 Color: colorSt                 #626262        241            darkgrey
-Color: colorStIn               #949494        246            darkgrey
+Color: colorStIn               #949494        246            grey
 Color: colorV                  #0087af        31             darkcyan
 
 ; Diff colors

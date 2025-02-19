@@ -20,17 +20,12 @@ Collection of dark and light vim colorschemes.
 ![Screenshot_20240529_160410](https://github.com/habamax/vim-nod/assets/234774/23a01f19-aa3c-4bdc-ac1a-878a2021d562)
 
 
-## nope, nope-y, nope-g
+## nope, nope-y
 
 ![Screenshot_20240529_160135](https://github.com/habamax/vim-nod/assets/234774/50fe64df-07ce-4007-9a40-17bb249a4c42)
 
 ![Screenshot_20240529_160155](https://github.com/habamax/vim-nod/assets/234774/780a289c-17f2-4be2-a437-47c922b70c91)
 
-![Screenshot_20240529_160210](https://github.com/habamax/vim-nod/assets/234774/34639bdf-6b97-4a69-b921-854c33088a88)
-
 ![Screenshot_20240529_160424](https://github.com/habamax/vim-nod/assets/234774/c43e940b-0cc8-44b3-bef2-48e282367267)
 
 ![Screenshot_20240529_160438](https://github.com/habamax/vim-nod/assets/234774/d9e3a330-1d1c-405a-9e4b-0605a019a3e0)
-
-![Screenshot_20240529_160451](https://github.com/habamax/vim-nod/assets/234774/ad31c2c4-bf76-4737-8351-25df2a6a2e38)
-

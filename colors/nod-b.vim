@@ -17,7 +17,7 @@ g:colors_name = 'nod-b'
 const t_Co = has('gui_running') ? 16777216 : str2nr(&t_Co)
 const tgc = has('termguicolors') && &termguicolors
 
-g:terminal_ansi_colors = ['#1c1c26', '#d75f87', '#00af5f', '#d7875f', '#0087ff', '#d75fd7', '#00afaf', '#d0d0d9', '#767680', '#ff5f87', '#00d75f', '#ffaf5f', '#00afff', '#ff87ff', '#00d7d7', '#ffffff']
+g:terminal_ansi_colors = ['#1c1c26', '#d75f87', '#00af5f', '#d7875f', '#0087ff', '#d75fd7', '#00afaf', '#d0d0da', '#767680', '#ff5f87', '#00d75f', '#ffaf5f', '#00afff', '#ff87ff', '#00d7d7', '#ffffff']
 
 hi! link CurSearch IncSearch
 hi! link LineNrAbove LineNr
@@ -105,7 +105,7 @@ hi PmenuMatch guifg=#ff87ff guibg=#3a3a44 guisp=NONE gui=NONE ctermfg=213 ctermb
 hi PmenuMatchSel guifg=#ff87ff guibg=#585862 guisp=NONE gui=NONE ctermfg=213 ctermbg=240 cterm=NONE term=NONE
 hi PmenuSbar guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
 hi PmenuSel guifg=NONE guibg=#585862 guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=bold
-hi PmenuThumb guifg=NONE guibg=#d0d0d9 guisp=NONE gui=NONE ctermfg=NONE ctermbg=252 cterm=NONE term=NONE
+hi PmenuThumb guifg=NONE guibg=#d0d0da guisp=NONE gui=NONE ctermfg=NONE ctermbg=252 cterm=NONE term=NONE
 hi PreProc guifg=#d75fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=170 ctermbg=NONE cterm=NONE term=NONE
 hi Question guifg=#ff87ff guibg=NONE guisp=NONE gui=NONE ctermfg=213 ctermbg=NONE cterm=NONE term=standout
 hi QuickFixLine guifg=#1c1c26 guibg=#ff87ff guisp=NONE gui=NONE ctermfg=234 ctermbg=213 cterm=NONE term=NONE
@@ -133,7 +133,7 @@ hi Type guifg=#0087ff guibg=NONE guisp=NONE gui=NONE ctermfg=33 ctermbg=NONE cte
 hi Underlined guifg=#00afff guibg=NONE guisp=NONE gui=underline ctermfg=39 ctermbg=NONE cterm=underline term=underline
 hi VertSplit guifg=#767680 guibg=#767680 guisp=NONE gui=NONE ctermfg=243 ctermbg=243 cterm=NONE term=NONE
 hi Visual guifg=NONE guibg=#123456 guisp=NONE gui=NONE ctermfg=81 ctermbg=234 cterm=reverse term=reverse
-hi VisualNOS guifg=#1c1c26 guibg=#d0d0d9 guisp=NONE gui=NONE ctermfg=234 ctermbg=252 cterm=NONE term=NONE
+hi VisualNOS guifg=#1c1c26 guibg=#d0d0da guisp=NONE gui=NONE ctermfg=234 ctermbg=252 cterm=NONE term=NONE
 hi WarningMsg guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=standout
 hi WildMenu guifg=#1c1c26 guibg=#ffaf5f guisp=NONE gui=bold ctermfg=234 ctermbg=215 cterm=bold term=bold
 hi debugBreakpoint guifg=#00afaf guibg=NONE guisp=NONE gui=reverse ctermfg=37 ctermbg=NONE cterm=reverse term=reverse

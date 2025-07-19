@@ -1,90 +1,89 @@
 ; vim: ft=colortemplate cc=18,30,42 vsts=17,12,12,4
 
-Variant: 8
-Normal           color07     none
+Normal           /8 color07     none
 
-Statusline       color07     color00     reverse,bold
-StatuslineNC     color00     color07
-VertSplit        color07     none
+StatusLine       /8 color07     color00     reverse,bold
+StatusLineNC     /8 color00     color07
+VertSplit        /8 color07     none
 
-TabLine          color07     color00
-TabLineFill      none        none
-TabLineSel       color00     color07
+TabLine          /8 color07     color00
+TabLineFill      /8 none        none
+TabLineSel       /8 color00     color07
 
-ToolbarLine      none        none
-ToolbarButton    color07     color00     reverse,bold
+ToolbarLine      /8 none        none
+ToolbarButton    /8 color07     color00     reverse,bold
 
-QuickFixLine     color00     color05
-CursorLineNr     color00     none        bold
-LineNr           color03     none
-NonText          color00     none
-FoldColumn       color00     none
-EndOfBuffer      color07     none
-SpecialKey       color00     none
+QuickFixLine     /8 color00     color05
+CursorLineNr     /8 color00     none        bold
+LineNr           /8 color03     none
+NonText          /8 color00     none
+FoldColumn       /8 color00     none
+EndOfBuffer      /8 color07     none
+SpecialKey       /8 color00     none
 
-Pmenu            color00     color07
-PmenuThumb       none        color02
-PmenuSbar        none        none
-PmenuSel         color00     color03
-PmenuKind        color01     color07
-PmenuKindSel     color01     color03
-PmenuExtra       color00     color07
-PmenuExtraSel    color00     color03
+Pmenu            /8 color00     color07
+PmenuThumb       /8 none        color02
+PmenuSbar        /8 none        none
+PmenuSel         /8 color00     color03
+PmenuKind        /8 color01     color07
+PmenuKindSel     /8 color01     color03
+PmenuExtra       /8 color00     color07
+PmenuExtraSel    /8 color00     color03
 
-SignColumn       none        none
+SignColumn       /8 none        none
 
-Error            color01     color00     reverse
-ErrorMsg         color01     color00     reverse
-ModeMsg          none        none        bold
-MoreMsg          color02     none
-Question         color05     none
-WarningMsg       color03     none
+Error            /8 color01     color00     reverse
+ErrorMsg         /8 color01     color00     reverse
+ModeMsg          /8 none        none        bold
+MoreMsg          /8 color02     none
+Question         /8 color05     none
+WarningMsg       /8 color03     none
 
-Todo             colorFg     none        bold
-Search           color00     color04
-IncSearch        color00     color03
-WildMenu         color00     color03
+Todo             /8 colorFg     none        bold
+Search           /8 color00     color04
+IncSearch        /8 color00     color03
+WildMenu         /8 color00     color03
 
-debugPC          color04     none        reverse
-debugBreakpoint  color06     none        reverse
+debugPC          /8 color04     none        reverse
+debugBreakpoint  /8 color06     none        reverse
 
-Visual           color03     color00     reverse
-MatchParen       none        none        bold,underline
+Visual           /8 color06     color00     reverse
+MatchParen       /8 none        none        bold,underline
 
-VisualNOS        none        none        reverse
-CursorLine       none        none        underline
-CursorColumn     color00     color03
-Folded           color07     none        bold
-ColorColumn      color00     color03
+VisualNOS        /8 none        none        reverse
+CursorLine       /8 none        none        underline
+CursorColumn     /8 color00     color03
+Folded           /8 color07     none        bold
+ColorColumn      /8 color00     color03
 
-SpellBad         color01     none        reverse
-SpellCap         color03     none        reverse
-SpellLocal       color02     none        reverse
-SpellRare        color05     none        reverse
+SpellBad         /8 color01     none        reverse
+SpellCap         /8 color03     none        reverse
+SpellLocal       /8 color02     none        reverse
+SpellRare        /8 color05     none        reverse
 
-Comment          none        none        bold
-Constant         color01     none
-String           color02     none
-Identifier       color06     none
+Comment          /8 none        none        bold
+Constant         /8 color01     none
+String           /8 color02     none
+Identifier       /8 color06     none
 
-Statement        color04     none
-Type             color04     none
+Statement        /8 color04     none
+Type             /8 color04     none
 
-PreProc          color05     none
-Special          color03     none
-Underlined       none        none        underline
+PreProc          /8 color05     none
+Special          /8 color03     none
+Underlined       /8 none        none        underline
 
-Title            none        none        bold
-Directory        none        none        bold
+Title            /8 none        none        bold
+Directory        /8 none        none        bold
 
-Conceal          none        none
-Ignore           none        none
+Conceal          /8 none        none
+Ignore           /8 none        none
 
-DiffAdd          color02     color00     reverse
-DiffChange       color04     color00     reverse
-DiffText         color05     color00     reverse
-DiffDelete       color01     color00     reverse
+DiffAdd          /8 color02     color00     reverse
+DiffChange       /8 color04     color00     reverse
+DiffText         /8 color05     color00     reverse
+DiffDelete       /8 color01     color00     reverse
 
-Added            color02     none
-Changed          color03     none
-Removed          color01     none
+Added            /8 color02     none
+Changed          /8 color03     none
+Removed          /8 color01     none

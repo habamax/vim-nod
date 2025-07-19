@@ -1,15 +1,17 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
-Full name: nope-y
-Short name: nope-y
+Full name:   nope-y
+Short name:  nope-y
 Description: nope with yellowish tint.
-Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/habamax/vim-nod
-License: Same as Vim
+Author:      Maxim Kim <habamax@gmail.com>
+URL:         https://github.com/habamax/vim-nod
+License:     Same as Vim
+
+Background: light
+
+Environments: gui 256 16 8 0
 
 Include: _link_default
 Include: _link_plugin
-
-Background: light
 
 ;;; Color palette
 Color: colorFg                 #000000        16             black
@@ -51,7 +53,7 @@ Color: colorlC                 #ff5fff        207            magenta
 Color: colorMP                 #ff00af        199            magenta
 Color: colorSt                 #626262        241            darkgrey
 Color: colorStIn               #949494        246            grey
-Color: colorV                  #0087af        31             darkcyan
+Color: colorV                  #97b7d7        31             darkcyan
 
 ; Diff colors
 Color: diffAdd                 #b7d7b7        65             green
@@ -61,4 +63,4 @@ Color: diffText                #d7bfd7        96             magenta
 
 Include: _base_nope
 Include: _tco8
-Include: _tco0
+Include: _tcozero
